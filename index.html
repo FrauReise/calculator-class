@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="ru">
+
+<head>
+	<meta charset="UTF-8">
+	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+	<meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+	<title>Калькулятор</title>
+	<link rel="stylesheet" href="assets/style/normalize.css">
+	<link rel="stylesheet" href="assets/style/style.css">
+
+</head>
+
+<body>
+
+	<div class="calculator-container">
+		
+			<label class="add-first">Введите первое число:</label>
+			<input class="page__input" id="firstNumber">
+		
+			<label class="add-sec">Введите второе число:</label>
+			<input class="page__input" id="secondNumber">
+		</div>
+		<div class="btn-container">
+			<button class="btn" type="button" onclick="addition()">+</button>
+			<button class="btn" type="button" onclick="subtraction()">-</button>
+			<button class="btn" type="button" onclick="multiplication()">*</button>
+			<button class="btn" type="button" onclick="division()">/</button>
+		</div>
+		<div class="result">
+			<label class="page-result">Результат:</label>
+			<input class="page__input" id="result">
+		</div>
+	</div>
+
+	<script src="assets/script/script.js"></script>
+
+
+</body>
+
+</html>

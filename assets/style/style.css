@@ -1,0 +1,17 @@
+.btn-container {
+    display: flex;
+    justify-items: center;
+}
+
+.btn {
+    margin: 1%;
+    height: 40px;
+    width: 40px;
+    background-color: rgb(217, 176, 255);
+    border: none;
+}
+
+.calculator-container,
+.result {
+    margin: 1%;
+}
